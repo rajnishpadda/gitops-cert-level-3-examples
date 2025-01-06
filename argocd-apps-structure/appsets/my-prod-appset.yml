@@ -28,7 +28,7 @@ spec:
       
       # Destination cluster and namespace to deploy the application
       destination:
-        server: https://10.5.0.195
+        server: cluster-2
         namespace: '{{index .path.segments 2}}-{{index .path.segments 4}}'
 
       # Sync policy
